@@ -1,0 +1,47 @@
+.containerNav{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(88, 88, 88);
+	color: white;
+}
+
+.brand{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+.brand img{
+	width: 10%;
+}
+
+.brand h1{
+	padding-left: 15px;
+	font-size: 22px;
+}
+
+.categories{
+	display: flex;
+	width: 60%;
+	list-style: none;
+	justify-content: space-evenly;
+}
+
+.cartWidget{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cartWidget .cart{
+	font-size: 20px;
+}
+
+.cartWidget p{
+	padding-left: 5px;
+}
