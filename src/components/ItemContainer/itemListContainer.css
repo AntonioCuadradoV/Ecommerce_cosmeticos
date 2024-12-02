@@ -1,0 +1,8 @@
+.container{
+	text-align: center;
+	margin-top: 50px;
+	font-size: larger;
+	color: rgb(61, 61, 61);
+	text-decoration: underline rgb(221, 141, 141) 4px;
+	font-weight: 500
+}

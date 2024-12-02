@@ -1,21 +1,23 @@
-import "./navbar.css"
-import CartWidget from "./cartWidget"
+import "./navbar.css";
+import CartWidget from "./cartWidget";
+import logo from "../../assets/images/Store_Logo.png";
 
 const Navbar = () => {
   return (
-	<nav className="containerNav">
-    <div className="brand">
-      <img src="https://cdn-icons-png.flaticon.com/512/7475/7475371.png" alt="GV" />
-      <h1>Tienda Valdez</h1>
-    </div>
-    <ul className="categories">
-      <li>Remeras</li>
-      <li>Buzos</li>
-      <li>Camperas</li>
-    </ul>
-
-    <CartWidget />
-  </nav>
-  )
-}
-export default Navbar
+    <nav className="containerNav">
+      <div className="logo">
+        <a href="">
+          <img  src={logo} alt="" />
+        </a>
+        <h1 className="title">Tienda Valdez</h1>
+      </div>
+      <div className="categories">
+        <a href="">Remeras</a>
+        <a href="">Buzos</a>
+        <a href="">Camperas</a>
+      </div>
+      <CartWidget />
+    </nav>
+  );
+};
+export default Navbar;
